@@ -30,7 +30,7 @@ ul {
 }
 
 .oculto {
-    background-color: skyblue;
+    background-color: rgb(135, 235, 142);
     display: flex;
     flex-direction: column;
     gap: 20px;
