@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+    gap: 60px;
+}
+
+.sub-menu {
+    position: relative;
+}
+
+.oculto {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 140px;
+    position: absolute;
+    top: 53px;
+    left: -25px;
+    visibility: hidden;
+}
+
+.sub-menu:hover .oculto {
+    visibility: visible;
+}
+
+
+form {
+    margin-top: 100px;
+}
+
+input {
+    width: 500px;
+    height: 80px;
+    margin: 20px;
+    padding-left: 100px;
+}
+
+.usuario {
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.check {
+    width: 40px;
+    position: relative;
+    top: 10px;
+    right: 0px;
+    visibility: hidden;
+}
+
+.nombre {
+    position: relative;
+}
+
+input:valid + .check {
+    visibility: visible;
+}
+
+p {
+    cursor: wait;
+}
+
+input:focus {
+    border: 2px solid black;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    /* display: flex; */
+    /* izq a der */
+    /* justify-content:flex-end; */
+    /* arriba a abajo */
+    /* align-items:flex-end; */
+    font-size: 40px;
+}
+
+.caja {
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 80px;
+    margin: 60px;
+    padding: 30px;
+    padding-left: 80px;
+    box-shadow: 2px 5px 16px 0px #808080ed;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.verde {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    position: absolute;
+    left: 30px;
+    top: 38px;
+}
